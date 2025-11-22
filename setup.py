@@ -56,6 +56,8 @@ def get_description():
     return long_description
 
 
+ENTRY_POINT = f'ovos-rake-keyword-extractor=RAKEkeywords.opm:RakeKeywordExtractor'
+
 
 setup(
     name='RAKEkeywords',
@@ -68,5 +70,8 @@ setup(
     author_email='jarbasai@mailfence.com',
     description='Implementation of RAKE - Rapid Automatic Keyword Extraction',
     long_description=get_description(),
-    long_description_content_type="text/markdown"
+    long_description_content_type="text/markdown",
+    entry_points={
+        "opm.keywords": ENTRY_POINT
+    }
 )
