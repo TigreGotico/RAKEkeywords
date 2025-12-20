@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0a2](https://github.com/TigreGotico/RAKEkeywords/tree/0.3.0a2) (2025-12-20)
+
+[Full Changelog](https://github.com/TigreGotico/RAKEkeywords/compare/0.3.0a1...0.3.0a2)
+
+**Merged pull requests:**
+
+- chore: Configure Renovate [\#3](https://github.com/TigreGotico/RAKEkeywords/pull/3) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.3.0a1](https://github.com/TigreGotico/RAKEkeywords/tree/0.3.0a1) (2025-11-22)
 
 [Full Changelog](https://github.com/TigreGotico/RAKEkeywords/compare/0.2.0...0.3.0a1)
