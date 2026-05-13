@@ -49,7 +49,7 @@ def stopwords(langs: Union[str, Iterable[str]]) -> Set[str]:
 
     Parameters
     ----------
-    lang : str, Iterable[str]
+    langs : str, Iterable[str]
         language or a set/list of languages for stopwords, in ISO 639-1 language code.
 
         stopwordsiso.stopwords("en")  # English stopwords
@@ -64,16 +64,16 @@ def stopwords(langs: Union[str, Iterable[str]]) -> Set[str]:
     words = set()
 
     if langs:
-        if type(langs) == str:
+        if isinstance(langs, str):
             if has_lang(langs):
                 words.update(_STOPWORDS_ALL[langs])
         else:
             try:
-                iter(langs)  # test if langs is iterable
-                for lang in langs:
-                    if has_lang(lang):
-                        words.update(_STOPWORDS_ALL[lang])
+                iter(langs)
             except TypeError:
-                print("'langs' has to be string or iterable.'")
+                raise TypeError("'langs' must be a string or iterable of language keys")
+            for lang in langs:
+                if has_lang(lang):
+                    words.update(_STOPWORDS_ALL[lang])
 
     return words
