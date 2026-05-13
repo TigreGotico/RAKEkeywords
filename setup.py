@@ -14,17 +14,6 @@ def package_files(directory):
     return paths
 
 
-def required(requirements_file):
-    """ Read requirements file and remove comments and empty lines. """
-    with open(os.path.join(BASEDIR, requirements_file), 'r') as f:
-        requirements = f.read().splitlines()
-        if 'MYCROFT_LOOSE_REQUIREMENTS' in os.environ:
-            print('USING LOOSE REQUIREMENTS!')
-            requirements = [r.replace('==', '>=').replace('~=', '>=') for r in requirements]
-        return [pkg for pkg in requirements
-                if pkg.strip() and not pkg.startswith("#")]
-
-
 def get_version():
     """ Find the version of ovos-core"""
     version = None
@@ -66,7 +55,6 @@ setup(
     url='https://github.com/OpenJarbas/RAKEkeywords',
     license='Apache2',
     author='jarbasAI',
-    install_requires=required('requirements.txt'),
     author_email='jarbasai@mailfence.com',
     description='Implementation of RAKE - Rapid Automatic Keyword Extraction',
     long_description=get_description(),
