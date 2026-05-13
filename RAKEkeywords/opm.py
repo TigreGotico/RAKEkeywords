@@ -1,7 +1,7 @@
 from ovos_plugin_manager.templates.keywords import KeywordExtractor
 from RAKEkeywords import Rake
 from typing import Dict, Optional, Set
-import stopwordsiso
+from RAKEkeywords import stopwrds as stopwordsiso
 
 
 class RakeKeywordExtractor(KeywordExtractor):
