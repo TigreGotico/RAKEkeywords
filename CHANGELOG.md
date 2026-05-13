@@ -1,28 +1,12 @@
 # Changelog
 
-## [0.3.0a3](https://github.com/TigreGotico/RAKEkeywords/tree/0.3.0a3) (2026-05-13)
+## [0.3.1a1](https://github.com/TigreGotico/RAKEkeywords/tree/0.3.1a1) (2026-05-13)
 
-[Full Changelog](https://github.com/TigreGotico/RAKEkeywords/compare/0.3.0a2...0.3.0a3)
-
-**Merged pull requests:**
-
-- Update actions/checkout action to v6 [\#6](https://github.com/TigreGotico/RAKEkeywords/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
-
-## [0.3.0a2](https://github.com/TigreGotico/RAKEkeywords/tree/0.3.0a2) (2025-12-20)
-
-[Full Changelog](https://github.com/TigreGotico/RAKEkeywords/compare/0.3.0a1...0.3.0a2)
+[Full Changelog](https://github.com/TigreGotico/RAKEkeywords/compare/0.3.0...0.3.1a1)
 
 **Merged pull requests:**
 
-- chore: Configure Renovate [\#3](https://github.com/TigreGotico/RAKEkeywords/pull/3) ([renovate[bot]](https://github.com/apps/renovate))
-
-## [0.3.0a1](https://github.com/TigreGotico/RAKEkeywords/tree/0.3.0a1) (2025-11-22)
-
-[Full Changelog](https://github.com/TigreGotico/RAKEkeywords/compare/0.2.0...0.3.0a1)
-
-**Merged pull requests:**
-
-- feat: opm plugin [\#1](https://github.com/TigreGotico/RAKEkeywords/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+- Vendor stopwords-iso to remove external dependency [\#10](https://github.com/TigreGotico/RAKEkeywords/pull/10) ([JarbasAl](https://github.com/JarbasAl))
 
 
 

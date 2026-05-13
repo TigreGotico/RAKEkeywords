@@ -1,6 +1,6 @@
 import re
 import operator
-import stopwordsiso
+from RAKEkeywords import stopwrds as stopwordsiso
 
 
 class Rake:
