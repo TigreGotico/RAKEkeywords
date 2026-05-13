@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RAKEkeywords"
+dynamic = ["version", "readme"]
+description = "Implementation of RAKE - Rapid Automatic Keyword Extraction"
+authors = [{ name = "jarbasAI", email = "jarbasai@mailfence.com" }]
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/OpenJarbas/RAKEkeywords"
+
+[project.entry-points."opm.keywords"]
+ovos-rake-keyword-extractor = "RAKEkeywords.opm:RakeKeywordExtractor"
+
+[tool.setuptools]
+packages = ["RAKEkeywords"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+RAKEkeywords = ["stopwords-iso.json"]
+
+[tool.setuptools.dynamic]
+version = { attr = "RAKEkeywords.version.__version__" }
+readme = { file = "README.md", content-type = "text/markdown" }
