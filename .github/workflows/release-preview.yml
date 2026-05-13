@@ -7,7 +7,7 @@ on:
 
 jobs:
   release_preview:
-    uses: OpenVoiceOS/gh-automations/.github/workflows/release-preview.yml@f81c5158260a0f9b21c9d8fbf2a83fa466df89f6
+    uses: OpenVoiceOS/gh-automations/.github/workflows/release-preview.yml@dev
     with:
       package_name: 'RAKEkeywords'
       version_file: 'RAKEkeywords/version.py'

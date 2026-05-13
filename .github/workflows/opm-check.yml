@@ -7,7 +7,7 @@ on:
 
 jobs:
   opm_check:
-    uses: OpenVoiceOS/gh-automations/.github/workflows/opm-check.yml@f81c5158260a0f9b21c9d8fbf2a83fa466df89f6
+    uses: OpenVoiceOS/gh-automations/.github/workflows/opm-check.yml@dev
     with:
       python_version: '3.11'
       plugin_type: 'auto'

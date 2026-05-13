@@ -7,6 +7,6 @@ on:
 
 jobs:
   repo_health:
-    uses: OpenVoiceOS/gh-automations/.github/workflows/repo-health.yml@f81c5158260a0f9b21c9d8fbf2a83fa466df89f6
+    uses: OpenVoiceOS/gh-automations/.github/workflows/repo-health.yml@dev
     with:
       version_file: 'RAKEkeywords/version.py'

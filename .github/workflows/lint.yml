@@ -7,7 +7,7 @@ on:
 
 jobs:
   lint:
-    uses: OpenVoiceOS/gh-automations/.github/workflows/lint.yml@f81c5158260a0f9b21c9d8fbf2a83fa466df89f6
+    uses: OpenVoiceOS/gh-automations/.github/workflows/lint.yml@dev
     with:
       ruff: true
       pre_commit: false   # set true if .pre-commit-config.yaml exists
