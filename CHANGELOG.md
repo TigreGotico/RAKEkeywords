@@ -1,12 +1,20 @@
 # Changelog
 
-## [0.3.1a1](https://github.com/TigreGotico/RAKEkeywords/tree/0.3.1a1) (2026-05-13)
+## [0.3.2a2](https://github.com/TigreGotico/RAKEkeywords/tree/0.3.2a2) (2026-09-26)
 
-[Full Changelog](https://github.com/TigreGotico/RAKEkeywords/compare/0.3.0...0.3.1a1)
+[Full Changelog](https://github.com/TigreGotico/RAKEkeywords/compare/0.3.2a1...0.3.2a2)
 
 **Merged pull requests:**
 
-- Vendor stopwords-iso to remove external dependency [\#10](https://github.com/TigreGotico/RAKEkeywords/pull/10) ([JarbasAl](https://github.com/JarbasAl))
+- chore\(ci\): drop the broken Dependabot config [\#15](https://github.com/TigreGotico/RAKEkeywords/pull/15) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [0.3.2a1](https://github.com/TigreGotico/RAKEkeywords/tree/0.3.2a1) (2026-07-30)
+
+[Full Changelog](https://github.com/TigreGotico/RAKEkeywords/compare/0.3.1...0.3.2a1)
+
+**Merged pull requests:**
+
+- docs: rewrite README in Simplified Technical English [\#13](https://github.com/TigreGotico/RAKEkeywords/pull/13) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
